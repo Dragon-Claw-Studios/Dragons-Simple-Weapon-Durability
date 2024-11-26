@@ -1,0 +1,18 @@
+IGUI_EN = {
+
+	IGUI_Sandbox_HIDE FROM CLIENT = "DOES NOT WORK",
+	
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option0 = "Modify Melee Weapon Durability<br> - Enables durability changes to melee weapons.<br>(Load/start save for changes to apply)",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option1 = "Modify Ranged Weapon Durability<br> - Enables durability changes to ranged weapons.<br>(Load/start save for changes to apply)",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option2 = "Modify Modded Weapon Durability<br> - Enables durability changes to modded weapons.<br>(Load/start save for changes to apply)",
+    IGUI_tooltip_DragonsSimpleWeaponDurability_option3 = "Durability Reduction Chance Multiplier<br> - The amount of times the durability reduction chance will be increased.<br> 2 = 200% (Twice as unlikely to lose durability)<br>(Load/start save for changes to apply)",
+    IGUI_tooltip_DragonsSimpleWeaponDurability_option4 = "Durability Max Multiplier<br> - The amount of times the durability max will be increased.<br> 2 = 200% (Double Durability)<br>(Load/start save for changes to apply)",
+    IGUI_tooltip_DragonsSimpleWeaponDurability_option5 = "Durability Reduction Chance Flat Increase<br> - The flat amount the durability reduction chance will be increased.<br>(Load/start save for changes to apply)",
+    IGUI_tooltip_DragonsSimpleWeaponDurability_option6 = "Durability Max Flat Increase<br> - The flat amount the durability max will be increased.<br>(Load/start save for changes to apply)",	
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option7 = "Modify SmallBlunt Category Weapon Durability<br> - Enables durability changes to SmallBlunt category melee weapons",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option8 = "Modify Blunt Category Weapon Durability<br> - Enables durability changes to Blunt category melee weapons",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option9 = "Modify SmallBlade Category Weapon Durability<br> - Enables durability changes to SmallBlade category melee weapons",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option10 = "Modify LongBlade Category Weapon Durability<br> - Enables durability changes to LongBlade category melee weapons",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option11 = "Modify Axe Category Weapon Durability<br> - Enables durability changes to Axe category melee weapons",
+	IGUI_tooltip_DragonsSimpleWeaponDurability_option12 = "Modify Spear Category Weapon Durability<br> - Enables durability changes to Spear category melee weapons",
+}

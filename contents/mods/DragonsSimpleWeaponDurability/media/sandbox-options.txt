@@ -1,0 +1,83 @@
+VERSION = 1,
+
+option DRASWD.BoolIncludeMelee
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeMelee,
+}
+
+option DRASWD.BoolIncludeRanged
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeRanged,
+}
+
+option DRASWD.BoolIncludeModded
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeModded,
+}
+
+option DRASWD.EnumConditionLowerChanceMultiplier
+{
+	type = enum, numValues = 11, default = 1,
+	page = DRASWD_Main, translation = EnumConditionLowerChanceMultiplier,
+	valueTranslation = DRASWD_EnumConditionLowerChanceMultiplier,
+}
+
+option DRASWD.EnumConditionMaxMultiplier
+{
+	type = enum, numValues = 11, default = 2,
+	page = DRASWD_Main, translation = EnumConditionMaxMultiplier,
+	valueTranslation = DRASWD_EnumConditionMaxMultiplier,
+}
+
+option DRASWD.EnumConditionLowerChanceFlatIncrease
+{
+	type = enum, numValues = 14, default = 6,
+	page = DRASWD_Main, translation = EnumConditionLowerChanceFlatIncrease,
+	valueTranslation = DRASWD_EnumConditionLowerChanceFlatIncrease,
+}
+
+option DRASWD.EnumConditionMaxFlatIncrease
+{
+	type = enum, numValues = 12, default = 3,
+	page = DRASWD_Main, translation = EnumConditionMaxFlatIncrease,
+	valueTranslation = DRASWD_EnumConditionMaxFlatIncrease,
+}
+
+option DRASWD.BoolIncludeSmallBlunt
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeSmallBlunt,
+}
+
+option DRASWD.BoolIncludeBlunt
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeBlunt,
+}
+
+option DRASWD.BoolIncludeSmallBlade
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeSmallBlade,
+}
+
+option DRASWD.BoolIncludeLongBlade
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeLongBlade,
+}
+
+option DRASWD.BoolIncludeAxe
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeAxe,
+}
+
+option DRASWD.BoolIncludeSpear
+{
+	type = boolean, default = true,
+	page = DRASWD_Main, translation = BoolIncludeSpear,
+}

@@ -1,0 +1,92 @@
+Sandbox_EN = {
+
+    Sandbox_DRASWD_Main = "[MP-ONLY] - Dragons Simple Weapon Durability Settings",
+
+    Sandbox_BoolIncludeMelee = "Modify Melee Weapon Durability",
+    Sandbox_BoolIncludeMelee_tooltip = "Enables durability changes to melee weapons",
+	
+    Sandbox_BoolIncludeRanged = "Modify Ranged Weapon Durability",
+    Sandbox_BoolIncludeRanged_tooltip = "Enables durability changes to ranged weapons",	
+
+    Sandbox_BoolIncludeModded = "Modify Modded Weapon Durability",
+    Sandbox_BoolIncludeModded_tooltip = "Enables durability changes to modded weapons",
+
+    Sandbox_EnumConditionLowerChanceMultiplier = "Durability Reduction Chance Multiplier",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option1 = "1x (no changes)",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option2 = "2x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option3 = "3x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option4 = "4x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option5 = "5x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option6 = "6x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option7 = "7x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option8 = "8x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option9 = "9x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option10 = "10x",
+    Sandbox_DRASWD_EnumConditionLowerChanceMultiplier_option11 = "100x",
+    Sandbox_EnumConditionLowerChanceMultiplier_tooltip = "The amount of times the durability reduction chance will be increased. 2 = 200% (Twice as unlikely to lose durability)",
+
+    Sandbox_EnumConditionMaxMultiplier = "Durability Max Multiplier",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option1 = "1x (no changes)",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option2 = "2x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option3 = "3x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option4 = "4x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option5 = "5x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option6 = "6x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option7 = "7x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option8 = "8x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option9 = "9x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option10 = "10x",
+    Sandbox_DRASWD_EnumConditionMaxMultiplier_option11 = "100x",
+    Sandbox_EnumConditionMaxMultiplier_tooltip = "The amount of times the durability max will be increased. 2 = 200% (Double Durability)",
+
+    Sandbox_EnumConditionLowerChanceFlatIncrease = "Durability Reduction Chance Flat Increase",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option1 = "0 (no changes)",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option2 = "1",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option3 = "2",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option4 = "3",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option5 = "4",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option6 = "5",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option7 = "6",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option8 = "7",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option9 = "8",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option10 = "9",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option11 = "10",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option12 = "15",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option13 = "20",
+    Sandbox_DRASWD_EnumConditionLowerChanceFlatIncrease_option14 = "25",
+    Sandbox_EnumConditionLowerChanceFlatIncrease_tooltip = "The flat amount the durability reduction chance will be increased.",
+
+    Sandbox_EnumConditionMaxFlatIncrease = "Durability Max Flat Increase",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option1 = "0 (no changes)",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option2 = "5",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option3 = "10",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option4 = "15",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option5 = "20",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option6 = "25",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option7 = "30",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option8 = "35",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option9 = "40",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option10 = "45",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option11 = "50",
+    Sandbox_DRASWD_EnumConditionMaxFlatIncrease_option11 = "100",
+    Sandbox_EnumConditionMaxFlatIncrease_tooltip = "The flat amount the durability max will be increased.",
+
+    Sandbox_BoolIncludeSmallBlunt = "Modify SmallBlunt Category Weapon Durability",
+    Sandbox_BoolIncludeSmallBlunt_tooltip = "Enables durability changes to SmallBlunt category melee weapons",
+
+    Sandbox_BoolIncludeBlunt = "Modify Blunt Category Weapon Durability",
+    Sandbox_BoolIncludeBlunt_tooltip = "Enables durability changes to Blunt category melee weapons",
+	
+	Sandbox_BoolIncludeSmallBlade = "Modify SmallBlade Category Weapon Durability",
+    Sandbox_BoolIncludeSmallBlade_tooltip = "Enables durability changes to SmallBlade category melee weapons",	
+	
+	Sandbox_BoolIncludeLongBlade = "Modify LongBlade Category Weapon Durability",
+    Sandbox_BoolIncludeLongBlade_tooltip = "Enables durability changes to LongBlade category melee weapons",	
+	
+	Sandbox_BoolIncludeAxe = "Modify Axe Category Weapon Durability",
+    Sandbox_BoolIncludeAxe_tooltip = "Enables durability changes to Axe category melee weapons",
+	
+	Sandbox_BoolIncludeSpear = "Modify Spear Category Weapon Durability",
+    Sandbox_BoolIncludeSpear_tooltip = "Enables durability changes to Spear category melee weapons",
+	
+}

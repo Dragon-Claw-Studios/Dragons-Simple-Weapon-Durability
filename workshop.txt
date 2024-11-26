@@ -1,0 +1,76 @@
+version=1
+id=3003693661
+title=Dragons Simple Weapon Durability
+description=[img]https://i.imgur.com/qGBxoXc.gif[/img]
+description=This is an extended version of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2617955054][b]Simple Weapon Durability[/b][/url] by [url=https://steamcommunity.com/profiles/76561198128122815][b]Ashleigh[/b][/url].
+description=
+description=[h1]Description[/h1]
+description=Adds settings that dynamically adjust durability-related stats on weapons through code, no file replacements. Can apply to both vanilla and modded weapons. Works in multiplayer. 
+description=
+description=A weapon is usually an item you can equip onto your hands and use to deal damage to e.g. zombies, at the chance of it losing durability (HP). Screwdriver, hammer, bat, crowbar, handgun, axe, spear, kitchen knife - are all examples of items in the "weapon" category.
+description=
+description=In rare cases, a modded item might be considered a weapon if it was implemented in a funky way to have the durability stat, but otherwise, this mod only affects "weapons"
+description=
+description=[h1]What is included/changed?[/h1]
+description=A good bit was reworked to allow multiplayer use, while still retaining simple option menu changes. Several new settings were also added. The full list of features in this mod are:
+description=
+description=- Filter changes to apply to Melee, Ranged and Modded weapons.
+description=- Filter which melee weapons to apply changes to (SmallBlunt, Blunt, SmallBlade, LongBlade, Axe, Spear)
+description=- Increase "Condition Max". (base HP/durability)
+description=- Increase "Condition Lower Chance". (probability of changing HP/durability)
+description=- Flat and multiplication increases.
+description=- Changing settings no longer require game restart, just reloading the save if changed after loading a save.
+description=- Some filtering optimizations to make durability adjustments a bit faster.
+description=- Works in multiplayer using vanilla sandbox settings, while retaining [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993][b]Mod Options[/b][/url] settings for singleplayer.
+description=
+description=Flat increases are applied [b]AFTER[/b] multiplication.
+description=
+description=[h1]Customization[/h1]
+description=You can configure singleplayer settings such as durability multiplier through [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993][b]Mod Options[/b][/url]. Servers use vanilla sandbox settings.
+description=
+description=- Install [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2169435993][b]Mod Options[/b][/url].
+description=- Open Project Zomboid.
+description=- Enable "Mod Options" in the mod menu.
+description=- Go to "Options".
+description=- Go to "Mods".
+description=- Adjust settings for "Dragons Simple Weapon Durability" to your liking.
+description=- Apply.
+description=
+description=[b]NB:[/b] If you change settings while a save is loaded, you will have to reload the save for changes to apply. No need to shut down the game though.
+description=
+description=[b]NB:[/b] If you want to change the settings for a server, you need to use the sandbox settings instead. Remember to have the mod enabled if you use the "Host" approach, as the sandbox settings wont show/get added otherwise.
+description=
+description=[h1]Default Settings[/h1]
+description=- Include Melee = true
+description=- Include Ranged = true
+description=- Include Modded = true
+description=- Condition Max flat increase = 10
+description=- Condition Lower Chance flat increase = 5
+description=- Condition Max multiplier = 2x
+description=- Condition Lower Chance multiplier = 1x
+description=- Include SmallBlunt= true
+description=- Include Blunt= true
+description=- Include SmallBlade = true
+description=- Include LongBlade= true
+description=- Include Axe= true
+description=- Include Spear= true
+description=
+description=[h1]Compatibility[/h1]
+description=- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2899311302][b]Weapon Stats Tooltip[/b][/url] - Will not display the correct values for HP and Durability Change Chance.
+description=- Existing save compatible, though changes to e.g. "Condition Max" wont "repair" you existing items,
+description=- Soft conflicts with mods that add durability to existing weapons. You'll end up with insanely durable weapons.
+description=- Conflicts with mods that add "Weapon" type items that are not actually weapons -- may result in some odd behavior. Report issues if experienced.
+description=- Keep in mind that if you have modded weapons with already generous durability, they might become significantly more generous.
+description=
+description=[h1]Complimentary Mods[/h1]
+description=[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2883603166][b]Show Weapon Stats Plus[/b][/url] - Will allow you to see durability stats on any item. I personally use this while testing, and have had no issue with it so far.
+description=
+description=[h1]Known Issues[/h1]
+description=Firearms will randomly have their durability set to 0. You can disable modification of ranged weapons until a fix is found, but I have been unable to reliably re-create the bug, as it feels rather random.
+description=
+description=[h1]How can I support your work?[/h1]
+description=If you enjoy the content I put out, consider supporting me, it would be greatly appreciated!
+description=
+description=[url=https://ko-fi.com/dragonking2504][img]https://storage.ko-fi.com/cdn/brandasset/kofi_button_red.png[/img][/url]
+tags=Build 41;Misc;Multiplayer;Weapons
+visibility=public
